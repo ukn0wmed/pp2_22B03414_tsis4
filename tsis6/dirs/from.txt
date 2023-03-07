@@ -1,0 +1,1 @@
+This text should be copied to 'to.txt' using seven.py program

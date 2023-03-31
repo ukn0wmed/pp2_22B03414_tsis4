@@ -3,7 +3,7 @@ import pygame, sys
 from pygame.locals import *
 import random, time
 
-# Initialzing
+# Initializing
 pygame.init()
 
 # Setting up FPS
@@ -110,7 +110,6 @@ all_sprites.add(P1)
 all_sprites.add(E1)
 all_sprites.add(C1)
 
-
 # Adding a new User event
 INC_SPEED = pygame.USEREVENT + 1
 pygame.time.set_timer(INC_SPEED, 1000)
@@ -151,7 +150,6 @@ while True:
         time.sleep(2)
         pygame.quit()
         sys.exit()
-
 
     pygame.display.update()
     FramePerSec.tick(FPS)

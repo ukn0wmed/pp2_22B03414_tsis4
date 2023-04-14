@@ -121,6 +121,8 @@ def draw_square(screen, start_pos, end_pos, color_mode):
     elif color_mode == 'erase':
         color = (0, 0, 0)
 
+    pygame.draw.rect(screen, color, pygame.Rect(x1, y1, x2 - x1, y2 - y1), 0)
+
 def draw_right_triangle(screen, start_pos, end_pos, color_mode):
     x1, y1 = start_pos
     x2, y2 = end_pos
